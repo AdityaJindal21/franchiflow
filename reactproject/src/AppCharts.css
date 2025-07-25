@@ -1,0 +1,40 @@
+.layout-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr; /* Upper half takes half, lower takes half */
+    height: 100vh; /* Full viewport height */
+    gap: 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .top-section {
+    background: #ffffff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .bottom-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal sections */
+    gap: 10px;
+  }
+  
+  .left-box, .right-box {
+    width: 100%; /* Full width */
+    height: 300px; /* Adjust height */
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+    align-items: center;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  
